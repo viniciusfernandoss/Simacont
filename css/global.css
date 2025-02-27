@@ -1,12 +1,20 @@
+/* Home */
 @import url('navbar.css');
 @import url('bannerInicial.css');
 @import url('caseSucesso.css');
-@import url('servicos.css');
 @import url('sobre.css');
-@import url('trabalheConosco.css');
+@import url('planos.css');
 @import url('faq.css');
 @import url('depoimento.css');
+@import url('blog.css');
 @import url('footer.css');
+
+/* Abertura de Empresa */
+@import url('passos.css');
+/* Migrar MEI */
+@import url('cards.css');
+/* Consultoria Estratégica*/
+@import url('caseSucessoCE.css');
 
 *{
     margin: 0px;
@@ -51,4 +59,10 @@
 
 .strong{
     font-weight: 800;
+}
+
+.linha-footer{
+    height: 2px;
+    width: 80%;
+    background: linear-gradient(to right, transparent, #919191, transparent);
 }

@@ -11,16 +11,24 @@
     --fonte-Ralewal: "Raleway", serif;
 }
 
-.nav-link{
-    color: #080808;
-    font-family: var(--fonte-OpenSans);
-    border-bottom: 2px solid transparent;
+.content2-sobre{
+    font-family: var(--fonte-Ralewal);
+}
+.content2-sobre h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.content2-sobre p{
+
+}
+.content2-sobre a{
+    text-decoration: none;
+    color: black;
+    background-color: #FDA52D;
+    border: 1px solid transparent;
     transition: 0.5s;
 }
-.nav-link:hover{
-    border-bottom: 2px solid #FDA52D;
-}
-
-.ativado{
-    border-bottom: 2px solid #FDA52D;
+.content2-sobre a:hover{
+    background-color:transparent;
+    border: 1px solid black;
 }

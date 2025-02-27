@@ -11,16 +11,49 @@
     --fonte-Ralewal: "Raleway", serif;
 }
 
-.nav-link{
-    color: #080808;
-    font-family: var(--fonte-OpenSans);
-    border-bottom: 2px solid transparent;
-    transition: 0.5s;
-}
-.nav-link:hover{
-    border-bottom: 2px solid #FDA52D;
+.conntent1-passos{
+    font-family: var(--fonte-Ralewal);
 }
 
-.ativado{
-    border-bottom: 2px solid #FDA52D;
+.conntent1-passos .passo1{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.conntent1-passos .passo2{
+    background-color: #B1B1B1;
+    color: black;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.conntent1-passos h2{
+    font-weight: 800;
+}
+
+.conntent1-passos h3{
+    font-weight: 800;
+    color: #FDA52D;
+}
+
+.card-passo{
+    border: 3px solid #FDA52D;
+}
+
+.bts-passos{
+    background-color: #FDA52D;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid transparent;
+}
+.bts-passos:hover{
+    border: 1px solid #FDA52D;
+    color: #FDA52D;
+    background-color: transparent;
 }
