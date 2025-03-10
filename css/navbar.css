@@ -24,3 +24,9 @@
 .ativado{
     border-bottom: 2px solid #FDA52D;
 }
+
+ /* Faz o dropdown abrir quando passar o mouse */
+ .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}

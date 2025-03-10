@@ -66,3 +66,40 @@
     width: 80%;
     background: linear-gradient(to right, transparent, #919191, transparent);
 }
+
+.pulse-WhatsApp{
+    font-size: 3.5rem;
+    border-radius: 16px;
+    position: fixed;
+    bottom: 5%;
+    left: 3%;
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #FDA52D;
+    box-shadow: 0 0 0 0 rgba(226, 41, 41, 0);
+    animation: pulse-WhatsApp 2s infinite;
+    transition: all 0.3s ease 0s;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+}
+.pulse-WhatsApp:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+
+@keyframes pulse-WhatsApp{
+    0%{
+        box-shadow: 0 0 0 0 #fda62da8;
+    }
+    70%{
+        color: rgb(173, 173, 173);
+        box-shadow: 0 0 0 17px rgba(92, 168, 44, 0);
+    }
+    100%{
+        box-shadow: rgba(92, 168, 44, 0);
+    }
+    
+}
